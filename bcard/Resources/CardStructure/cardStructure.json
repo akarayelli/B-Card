@@ -1,0 +1,47 @@
+ [￼
+  {￼
+  "backgroundImage": "",
+  "coordinates": {￼
+  "name": {￼
+  "x": 0,
+  "y": 0
+  },
+  "surname": 0,
+  "title": 0,
+  "phone": 0,
+  "email": 0,
+  "company": 0,
+  "address": 0,
+  "city": 0,
+  "district": 0
+  }
+  },
+  {￼
+  "backgroundImage": "",
+  "coordinates": {￼
+  "name": 0,
+  "surname": 0,
+  "title": 0,
+  "phone": 0,
+  "email": 0,
+  "company": 0,
+  "address": 0,
+  "city": 0,
+  "district": 0
+  }
+  },
+  {￼
+  "backgroundImage": "",
+  "coordinates": {￼
+  "name": 0,
+  "surname": 0,
+  "title": 0,
+  "phone": 0,
+  "email": 0,
+  "company": 0,
+  "address": 0,
+  "city": 0,
+  "district": 0
+  }
+  }
+  ]

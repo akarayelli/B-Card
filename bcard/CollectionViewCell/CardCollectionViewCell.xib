@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CardCollectionViewCell" id="gTV-IL-0wX" customClass="CardCollectionViewCell" customModule="bcard" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="225"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="225"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card1_front.png" translatesAutoresizingMaskIntoConstraints="NO" id="F07-W0-sV6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="225"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2IO-r5-Fki">
+                        <rect key="frame" x="346" y="5" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="4uM-9g-Xxd"/>
+                            <constraint firstAttribute="width" secondItem="2IO-r5-Fki" secondAttribute="height" multiplier="1:1" id="TV5-Pi-Z7g"/>
+                            <constraint firstAttribute="width" constant="24" id="WiN-Mm-o7d"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="expand_icn"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="2IO-r5-Fki" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="1FA-g7-lXp"/>
+                <constraint firstAttribute="trailing" secondItem="2IO-r5-Fki" secondAttribute="trailing" constant="5" id="GsL-DR-K5c"/>
+                <constraint firstItem="F07-W0-sV6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="TNt-NO-hG0"/>
+                <constraint firstAttribute="trailing" secondItem="F07-W0-sV6" secondAttribute="trailing" id="Yho-Fh-Hc3"/>
+                <constraint firstAttribute="bottom" secondItem="F07-W0-sV6" secondAttribute="bottom" id="hiM-6y-jef"/>
+                <constraint firstItem="F07-W0-sV6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="nCf-Zz-Ziz"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="backgroundImage" destination="F07-W0-sV6" id="mlg-cM-dSo"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="card1_front.png" width="1125" height="675"/>
+        <image name="expand_icn" width="32" height="32"/>
+    </resources>
+</document>
