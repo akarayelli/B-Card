@@ -25,6 +25,7 @@ class TemplateListViewController: UIViewController {
         cardCollectionView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0)
 
 
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -62,6 +63,9 @@ extension TemplateListViewController: UICollectionViewDataSource{
         
         let imageName = "card" + String((indexPath.row + 1)) + "_front.png"
         cell.backgroundImage.image = UIImage(named: imageName)
+        
+        CardUtil().createBusinessCardComponent(cell: cell)
+
         
         return cell
         

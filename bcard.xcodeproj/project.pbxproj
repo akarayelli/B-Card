@@ -24,6 +24,9 @@
 		0FE7B58D1F7FBBA500DFFF31 /* card2_front.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE7B5871F7FBBA500DFFF31 /* card2_front.png */; };
 		0FF60ECF1F7FCBF40082CD5C /* CenterCellCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF60ECE1F7FCBF40082CD5C /* CenterCellCollectionViewFlowLayout.swift */; };
 		0FF60ED21F7FEEA20082CD5C /* cardStructure.json in Resources */ = {isa = PBXBuildFile; fileRef = 0FF60ED11F7FEEA20082CD5C /* cardStructure.json */; };
+		0FF60ED51F7FFF740082CD5C /* CardUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF60ED41F7FFF740082CD5C /* CardUtil.swift */; };
+		0FF60ED81F7FFFA20082CD5C /* BusinessCardUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF60ED71F7FFFA20082CD5C /* BusinessCardUIModel.swift */; };
+		0FF60EDA1F8005A30082CD5C /* ComponentRectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF60ED91F8005A30082CD5C /* ComponentRectModel.swift */; };
 		CBEDEA89AEEF3745FB09B7B5 /* Pods_bcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F927CE7A434D441F4D07E095 /* Pods_bcard.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,9 @@
 		0FE7B5871F7FBBA500DFFF31 /* card2_front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card2_front.png; sourceTree = "<group>"; };
 		0FF60ECE1F7FCBF40082CD5C /* CenterCellCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterCellCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		0FF60ED11F7FEEA20082CD5C /* cardStructure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cardStructure.json; sourceTree = "<group>"; };
+		0FF60ED41F7FFF740082CD5C /* CardUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUtil.swift; sourceTree = "<group>"; };
+		0FF60ED71F7FFFA20082CD5C /* BusinessCardUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardUIModel.swift; sourceTree = "<group>"; };
+		0FF60ED91F8005A30082CD5C /* ComponentRectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentRectModel.swift; sourceTree = "<group>"; };
 		7A0F6FD997CC6642AFA89706 /* Pods-bcard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bcard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bcard/Pods-bcard.debug.xcconfig"; sourceTree = "<group>"; };
 		8A73D38E788ED812F3258DCC /* Pods-bcard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bcard.release.xcconfig"; path = "Pods/Target Support Files/Pods-bcard/Pods-bcard.release.xcconfig"; sourceTree = "<group>"; };
 		F927CE7A434D441F4D07E095 /* Pods_bcard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bcard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +112,8 @@
 		0F6B25E21F7FAF82004D971E /* bcard */ = {
 			isa = PBXGroup;
 			children = (
+				0FF60ED61F7FFF8B0082CD5C /* Model */,
+				0FF60ED31F7FFF660082CD5C /* Util */,
 				0FE7B5791F7FB12E00DFFF31 /* ViewController */,
 				0FE7B57A1F7FBA6B00DFFF31 /* CollectionViewCell */,
 				0F6B25E31F7FAF82004D971E /* AppDelegate.swift */,
@@ -183,6 +191,23 @@
 				0FF60ED11F7FEEA20082CD5C /* cardStructure.json */,
 			);
 			path = CardStructure;
+			sourceTree = "<group>";
+		};
+		0FF60ED31F7FFF660082CD5C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0FF60ED41F7FFF740082CD5C /* CardUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0FF60ED61F7FFF8B0082CD5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FF60ED71F7FFFA20082CD5C /* BusinessCardUIModel.swift */,
+				0FF60ED91F8005A30082CD5C /* ComponentRectModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		622A32B483A11358E052B052 /* Frameworks */ = {
@@ -375,8 +400,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FE7B57D1F7FBA9E00DFFF31 /* CardCollectionViewCell.swift in Sources */,
+				0FF60ED51F7FFF740082CD5C /* CardUtil.swift in Sources */,
+				0FF60ED81F7FFFA20082CD5C /* BusinessCardUIModel.swift in Sources */,
 				0F6B25E61F7FAF82004D971E /* ViewController.swift in Sources */,
 				0F6B25E41F7FAF82004D971E /* AppDelegate.swift in Sources */,
+				0FF60EDA1F8005A30082CD5C /* ComponentRectModel.swift in Sources */,
 				0FF60ECF1F7FCBF40082CD5C /* CenterCellCollectionViewFlowLayout.swift in Sources */,
 				0FE7B5781F7FB12600DFFF31 /* TemplateListViewController.swift in Sources */,
 			);

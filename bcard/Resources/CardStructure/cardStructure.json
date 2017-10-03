@@ -1,47 +1,159 @@
- [￼
-  {￼
-  "backgroundImage": "",
-  "coordinates": {￼
-  "name": {￼
-  "x": 0,
-  "y": 0
-  },
-  "surname": 0,
-  "title": 0,
-  "phone": 0,
-  "email": 0,
-  "company": 0,
-  "address": 0,
-  "city": 0,
-  "district": 0
-  }
-  },
-  {￼
-  "backgroundImage": "",
-  "coordinates": {￼
-  "name": 0,
-  "surname": 0,
-  "title": 0,
-  "phone": 0,
-  "email": 0,
-  "company": 0,
-  "address": 0,
-  "city": 0,
-  "district": 0
-  }
-  },
-  {￼
-  "backgroundImage": "",
-  "coordinates": {￼
-  "name": 0,
-  "surname": 0,
-  "title": 0,
-  "phone": 0,
-  "email": 0,
-  "company": 0,
-  "address": 0,
-  "city": 0,
-  "district": 0
-  }
-  }
+{
+  "canvasWidth": 1125,
+  "canvasHeight": 675,
+  "components": [
+    {
+      "cardId": 1,
+      "backgroundImage": "card1_front.png",
+      "coordinates": {
+        "name": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "surname": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "title": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "phone": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "email": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "company": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "address": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "city": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "district": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        }
+      }
+    },
+    {
+      "cardId": 2,
+      "backgroundImage": "card2_front.png",
+      "coordinates": {
+        "name": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "surname": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "title": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "phone": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "email": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "company": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "address": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "city": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "district": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        }
+      }
+    },
+    {
+      "cardId": 3,
+      "backgroundImage": "card3_front.png",
+      "coordinates": {
+        "name": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "surname": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "title": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "phone": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "email": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "company": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "address": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "city": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        },
+        "district": {
+          "x": 0,
+          "y": 0,
+          "width": 0
+        }
+      }
+    }
   ]
+}
