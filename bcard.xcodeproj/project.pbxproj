@@ -12,7 +12,6 @@
 		0F6B25EB1F7FAF82004D971E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F6B25EA1F7FAF82004D971E /* Assets.xcassets */; };
 		0F6B25EE1F7FAF82004D971E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6B25EC1F7FAF82004D971E /* LaunchScreen.storyboard */; };
 		0F6B25F91F7FAF82004D971E /* bcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6B25F81F7FAF82004D971E /* bcardTests.swift */; };
-		0FE7B5781F7FB12600DFFF31 /* TemplateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE7B5771F7FB12600DFFF31 /* TemplateListViewController.swift */; };
 		0FE7B57D1F7FBA9E00DFFF31 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE7B57B1F7FBA9E00DFFF31 /* CardCollectionViewCell.swift */; };
 		0FE7B57E1F7FBA9E00DFFF31 /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE7B57C1F7FBA9E00DFFF31 /* CardCollectionViewCell.xib */; };
 		0FE7B5881F7FBBA500DFFF31 /* card1_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE7B5821F7FBBA500DFFF31 /* card1_back.png */; };
@@ -42,6 +41,7 @@
 		AA88860A1F879EB4008C378A /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA8885FE1F879D20008C378A /* Raleway-Thin.ttf */; };
 		AA88860B1F879EB4008C378A /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA8885FF1F879D20008C378A /* Raleway-ThinItalic.ttf */; };
 		AA88860D1F87A3EB008C378A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA88860C1F87A3EB008C378A /* Configuration.swift */; };
+		AA88860F1F87A710008C378A /* TemplateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA88860E1F87A710008C378A /* TemplateListViewController.swift */; };
 		CBEDEA89AEEF3745FB09B7B5 /* Pods_bcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F927CE7A434D441F4D07E095 /* Pods_bcard.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,7 +65,6 @@
 		0F6B25F41F7FAF82004D971E /* bcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6B25F81F7FAF82004D971E /* bcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bcardTests.swift; sourceTree = "<group>"; };
 		0F6B25FA1F7FAF82004D971E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FE7B5771F7FB12600DFFF31 /* TemplateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateListViewController.swift; sourceTree = "<group>"; };
 		0FE7B57B1F7FBA9E00DFFF31 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		0FE7B57C1F7FBA9E00DFFF31 /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
 		0FE7B5821F7FBBA500DFFF31 /* card1_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card1_back.png; sourceTree = "<group>"; };
@@ -100,6 +99,7 @@
 		AA8885FF1F879D20008C378A /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
 		AA8886011F879D21008C378A /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
 		AA88860C1F87A3EB008C378A /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		AA88860E1F87A710008C378A /* TemplateListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TemplateListViewController.swift; path = bcard/ViewController/TemplateListViewController.swift; sourceTree = SOURCE_ROOT; };
 		F927CE7A434D441F4D07E095 /* Pods_bcard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bcard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -172,7 +172,7 @@
 		0FE7B5791F7FB12E00DFFF31 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0FE7B5771F7FB12600DFFF31 /* TemplateListViewController.swift */,
+				AA88860E1F87A710008C378A /* TemplateListViewController.swift */,
 			);
 			name = ViewController;
 			path = "New Group";
@@ -477,8 +477,8 @@
 				0F6B25E41F7FAF82004D971E /* AppDelegate.swift in Sources */,
 				AA88860D1F87A3EB008C378A /* Configuration.swift in Sources */,
 				0FF60EDA1F8005A30082CD5C /* ComponentRectModel.swift in Sources */,
+				AA88860F1F87A710008C378A /* TemplateListViewController.swift in Sources */,
 				0FF60ECF1F7FCBF40082CD5C /* CenterCellCollectionViewFlowLayout.swift in Sources */,
-				0FE7B5781F7FB12600DFFF31 /* TemplateListViewController.swift in Sources */,
 				AA09739E1F8526C100BFDF14 /* Constants.swift in Sources */,
 				AA4176911F860DC600FED140 /* CardComponentTag.swift in Sources */,
 			);
