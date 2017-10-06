@@ -65,7 +65,7 @@
                             </collectionView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="fSw-nM-Qam">
                                 <rect key="frame" x="16" y="245" width="343" height="37"/>
-                                <color key="pageIndicatorTintColor" red="0.24313725489999999" green="0.4823529412" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="pageIndicatorTintColor" red="0.98823529409999999" green="0.71764705880000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </pageControl>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9M-oE-aaC">
                                 <rect key="frame" x="0.0" y="290" width="375" height="710"/>
@@ -339,6 +339,7 @@
                         <outlet property="companyNameTextField" destination="WT3-YF-ZPU" id="n0G-ab-96G"/>
                         <outlet property="emailTextField" destination="rGL-FX-ahG" id="tpO-Yd-Is0"/>
                         <outlet property="nameTextField" destination="YPh-fX-mGS" id="dCt-R6-kAr"/>
+                        <outlet property="pageControl" destination="fSw-nM-Qam" id="94J-zj-aeQ"/>
                         <outlet property="personalView" destination="qvX-MM-Yyk" id="IWP-oh-KAo"/>
                         <outlet property="phoneTextField" destination="H5B-R9-5Gh" id="DyK-6R-Nlc"/>
                         <outlet property="surnameTextField" destination="WQc-PF-XOl" id="szN-tF-cld"/>
@@ -347,6 +348,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="116" y="116.94152923538232"/>
+        </scene>
+        <!--Card Preview View Controller-->
+        <scene sceneID="c9F-pV-rfG">
+            <objects>
+                <viewController storyboardIdentifier="CardPreviewViewController" id="9cT-hE-NS8" customClass="CardPreviewViewController" customModule="bcard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eGy-QC-nz3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Preview" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PM5-jc-UV9">
+                                <rect key="frame" x="166" y="323" width="61" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71223958330000003" green="0.0065754511119999999" blue="0.18582747090000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="EDh-CL-Ayb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zji-As-pcs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="931" y="-3"/>
         </scene>
     </scenes>
 </document>

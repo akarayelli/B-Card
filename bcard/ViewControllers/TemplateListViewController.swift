@@ -27,6 +27,7 @@ class TemplateListViewController: UIViewController {
     @IBOutlet var companyNameTextField: SkyFloatingLabelTextField!
     
     @IBOutlet weak var cardCollectionView: UICollectionView!
+    @IBOutlet var pageControl: UIPageControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -78,11 +79,17 @@ extension TemplateListViewController: UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
         log.debug("Card selected with indexpath: " +  String(describing:indexPath.row))
     }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let pageWidth = scrollView.frame.size.width
+        self.pageControl.currentPage = Int(round(scrollView.contentOffset.x / pageWidth))
+    }
 }
 
 extension TemplateListViewController: UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        self.pageControl.numberOfPages = cardInfoViewList.count
         return cardInfoViewList.count;
     }
     
@@ -96,7 +103,22 @@ extension TemplateListViewController: UICollectionViewDataSource{
         cell.addSubview(cardView)
         cell.sendSubview(toBack: cardView)
         
+        cell.expandButton.addTarget(self, action: #selector(expandCard(sender:)), for: UIControlEvents.touchUpInside)
+        
         return cell
+        
+    }
+    
+    
+    @objc func expandCard(sender: Any){
+        
+        log.debug("Expand Card button get fired...")
+        
+        let controller:UIViewController = UIStoryboard.main.instantiateViewController(withIdentifier: CardPreviewViewController.className)
+        controller.modalPresentationStyle = UIModalPresentationStyle.custom
+        controller.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+        self.present(controller, animated: true, completion: nil)
+        
         
     }
     
