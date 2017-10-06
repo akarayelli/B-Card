@@ -10,55 +10,64 @@
 import UIKit
 class CenterCellCollectionViewFlowLayout: UICollectionViewFlowLayout {
     
-    var mostRecentOffset : CGPoint = CGPoint()
-    
     override func targetContentOffset(forProposedContentOffset proposedContentOffset: CGPoint, withScrollingVelocity velocity: CGPoint) -> CGPoint {
         
-        if velocity.x == 0 {
-            return mostRecentOffset
+        
+        if let collectionView = collectionView,
+            let first = layoutAttributesForItem(at: IndexPath(row: 0, section: 0)),
+            let last = layoutAttributesForItem(at: IndexPath(row: collectionView.numberOfItems(inSection: 0) - 1, section: 0))
+        {
+            sectionInset = UIEdgeInsets(top: 0,
+                                        left: collectionView.frame.width / 2 - first.bounds.size.width / 2,
+                                        bottom: 0,
+                                        right: collectionView.frame.width / 2  - last.bounds.size.width / 2)
         }
         
-        if let cv = self.collectionView {
+        
+        let collectionViewSize           = self.collectionView!.bounds.size
+        let proposedContentOffsetCenterX = proposedContentOffset.x + collectionViewSize.width * 0.5
+        
+        
+        var candidateAttributes: UICollectionViewLayoutAttributes?
+        for attributes in self.layoutAttributesForElements(in: self.collectionView!.bounds)! {
             
-            let cvBounds = cv.bounds
-            let halfWidth = cvBounds.size.width * 0.5;
+            // Skip comparison with non-cell items (headers and footers)
+            if attributes.representedElementCategory != .cell {
+                continue
+            }
             
             
-            if let attributesForVisibleCells = self.layoutAttributesForElements(in: cvBounds) {
-                
-                var candidateAttributes : UICollectionViewLayoutAttributes?
-                for attributes in attributesForVisibleCells {
-                    
-                    // == Skip comparison with non-cell items (headers and footers) == //
-                    if attributes.representedElementCategory != UICollectionElementCategory.cell {
-                        continue
-                    }
-                    
-                    if (attributes.center.x == 0) || (attributes.center.x > (cv.contentOffset.x + halfWidth) && velocity.x < 0) {
-                        continue
-                    }
-                    candidateAttributes = attributes
-                }
-                
-                // Beautification step , I don't know why it works!
-                if(proposedContentOffset.x == -(cv.contentInset.left)) {
-                    return proposedContentOffset
-                }
-                
-                guard let _ = candidateAttributes else {
-                    return mostRecentOffset
-                }
-                mostRecentOffset = CGPoint(x: floor(candidateAttributes!.center.x - halfWidth), y: proposedContentOffset.y)
-                return mostRecentOffset
-                
+            // Don't even bother with items on opposite direction
+            // You'll get at least one, or else the fallback got your back
+            let currentOffset = self.collectionView!.contentOffset
+            if (attributes.center.x <= (currentOffset.x + collectionViewSize.width * 0.5)
+                && velocity.x > 0) || (attributes.center.x >= (currentOffset.x + collectionViewSize.width * 0.5)
+                    && velocity.x < 0) {
+                continue
+            }
+            
+            
+            // First good item in the loop
+            if candidateAttributes == nil {
+                candidateAttributes = attributes
+                continue
+            }
+            
+            // Save constants to improve readability
+            let lastCenterOffset = candidateAttributes!.center.x - proposedContentOffsetCenterX
+            let centerOffset = attributes.center.x - proposedContentOffsetCenterX
+            
+            if fabsf( Float(centerOffset) ) < fabsf( Float(lastCenterOffset) ) {
+                candidateAttributes = attributes
             }
         }
         
-        // fallback
-        mostRecentOffset = super.targetContentOffset(forProposedContentOffset: proposedContentOffset)
-        return mostRecentOffset
+        if candidateAttributes != nil {
+            return CGPoint(x: candidateAttributes!.center.x - collectionViewSize.width * 0.5, y: proposedContentOffset.y)
+        } else {
+            return super.targetContentOffset(forProposedContentOffset: proposedContentOffset)
+        }
+        
     }
     
-    
 }
-

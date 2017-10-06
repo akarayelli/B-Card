@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "İş Detayı"; ObjectID = "7vA-yz-OYv"; */
+"7vA-yz-OYv.text" = "İş Detayı";
+
+/* Class = "UILabel"; text = "Kendinizle ilgili detayları girebilirsiniz"; ObjectID = "8Vz-dO-CIg"; */
+"8Vz-dO-CIg.text" = "Kendinizle ilgili detayları girebilirsiniz";
+
+/* Class = "UILabel"; text = "Kişisel Bilgiler"; ObjectID = "ChB-Sd-G5f"; */
+"ChB-Sd-G5f.text" = "Kişisel Bilgiler";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Exh-KM-YAL"; */
+"Exh-KM-YAL.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "İş yeri bilginizle ilgili detayları girebilirsiniz"; ObjectID = "xee-pt-RMu"; */
+"xee-pt-RMu.text" = "İş yeri bilginizle ilgili detayları girebilirsiniz";

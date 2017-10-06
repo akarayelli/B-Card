@@ -19,9 +19,6 @@
                 <rect key="frame" x="0.0" y="0.0" width="375" height="225"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card1_front.png" translatesAutoresizingMaskIntoConstraints="NO" id="F07-W0-sV6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="225"/>
-                    </imageView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2IO-r5-Fki">
                         <rect key="frame" x="346" y="5" width="24" height="24"/>
                         <constraints>
@@ -36,19 +33,14 @@
             <constraints>
                 <constraint firstItem="2IO-r5-Fki" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="1FA-g7-lXp"/>
                 <constraint firstAttribute="trailing" secondItem="2IO-r5-Fki" secondAttribute="trailing" constant="5" id="GsL-DR-K5c"/>
-                <constraint firstItem="F07-W0-sV6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="TNt-NO-hG0"/>
-                <constraint firstAttribute="trailing" secondItem="F07-W0-sV6" secondAttribute="trailing" id="Yho-Fh-Hc3"/>
-                <constraint firstAttribute="bottom" secondItem="F07-W0-sV6" secondAttribute="bottom" id="hiM-6y-jef"/>
-                <constraint firstItem="F07-W0-sV6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="nCf-Zz-Ziz"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <connections>
-                <outlet property="backgroundImage" destination="F07-W0-sV6" id="mlg-cM-dSo"/>
+                <outlet property="expandButton" destination="2IO-r5-Fki" id="ci2-cx-Azk"/>
             </connections>
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="card1_front.png" width="1125" height="675"/>
-        <image name="expand_icn" width="32" height="32"/>
+        <image name="expand_icn" width="24" height="24"/>
     </resources>
 </document>

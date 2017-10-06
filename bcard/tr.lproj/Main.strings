@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Business Information"; ObjectID = "7vA-yz-OYv"; */
+"7vA-yz-OYv.text" = "Business Information";
+
+/* Class = "UILabel"; text = "Give personal information about yourself"; ObjectID = "8Vz-dO-CIg"; */
+"8Vz-dO-CIg.text" = "Give personal information about yourself";
+
+/* Class = "UILabel"; text = "Personal Information"; ObjectID = "ChB-Sd-G5f"; */
+"ChB-Sd-G5f.text" = "Personal Information";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Exh-KM-YAL"; */
+"Exh-KM-YAL.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "kkkk"; ObjectID = "WbQ-Dl-dyz"; */
+"WbQ-Dl-dyz.normalTitle" = "kkkk";
+
+/* Class = "UILabel"; text = "Give your business information"; ObjectID = "xee-pt-RMu"; */
+"xee-pt-RMu.text" = "Give your business information";

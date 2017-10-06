@@ -10,6 +10,7 @@ import UIKit
 
 class CardCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var backgroundImage: UIImageView!
+    @IBOutlet weak var expandButton: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()

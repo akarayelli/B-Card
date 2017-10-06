@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0F6B25E41F7FAF82004D971E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6B25E31F7FAF82004D971E /* AppDelegate.swift */; };
-		0F6B25E61F7FAF82004D971E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6B25E51F7FAF82004D971E /* ViewController.swift */; };
 		0F6B25E91F7FAF82004D971E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6B25E71F7FAF82004D971E /* Main.storyboard */; };
 		0F6B25EB1F7FAF82004D971E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F6B25EA1F7FAF82004D971E /* Assets.xcassets */; };
 		0F6B25EE1F7FAF82004D971E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6B25EC1F7FAF82004D971E /* LaunchScreen.storyboard */; };
@@ -27,6 +26,22 @@
 		0FF60ED51F7FFF740082CD5C /* CardUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF60ED41F7FFF740082CD5C /* CardUtil.swift */; };
 		0FF60ED81F7FFFA20082CD5C /* BusinessCardUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF60ED71F7FFFA20082CD5C /* BusinessCardUIModel.swift */; };
 		0FF60EDA1F8005A30082CD5C /* ComponentRectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF60ED91F8005A30082CD5C /* ComponentRectModel.swift */; };
+		AA09739E1F8526C100BFDF14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09739D1F8526C100BFDF14 /* Constants.swift */; };
+		AA41768F1F860C7300FED140 /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA41768E1F860C7300FED140 /* FontStyle.swift */; };
+		AA4176911F860DC600FED140 /* CardComponentTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4176901F860DC600FED140 /* CardComponentTag.swift */; };
+		AA4176931F86259400FED140 /* UIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4176921F86259400FED140 /* UIUtil.swift */; };
+		AA8885E61F876808008C378A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA8885E81F876808008C378A /* Localizable.strings */; };
+		AA8886021F879EB4008C378A /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA8886011F879D21008C378A /* Raleway-Black.ttf */; };
+		AA8886031F879EB4008C378A /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA8885F91F879D1E008C378A /* Raleway-Bold.ttf */; };
+		AA8886041F879EB4008C378A /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA8885F61F879D1C008C378A /* Raleway-ExtraBold.ttf */; };
+		AA8886051F879EB4008C378A /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA8885F31F879D1B008C378A /* Raleway-ExtraLight.ttf */; };
+		AA8886061F879EB4008C378A /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA8885FA1F879D1E008C378A /* Raleway-Light.ttf */; };
+		AA8886071F879EB4008C378A /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA8885FD1F879D1F008C378A /* Raleway-Medium.ttf */; };
+		AA8886081F879EB4008C378A /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA8885F71F879D1D008C378A /* Raleway-Regular.ttf */; };
+		AA8886091F879EB4008C378A /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA8885F81F879D1D008C378A /* Raleway-SemiBold.ttf */; };
+		AA88860A1F879EB4008C378A /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA8885FE1F879D20008C378A /* Raleway-Thin.ttf */; };
+		AA88860B1F879EB4008C378A /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA8885FF1F879D20008C378A /* Raleway-ThinItalic.ttf */; };
+		AA88860D1F87A3EB008C378A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA88860C1F87A3EB008C378A /* Configuration.swift */; };
 		CBEDEA89AEEF3745FB09B7B5 /* Pods_bcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F927CE7A434D441F4D07E095 /* Pods_bcard.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +58,6 @@
 /* Begin PBXFileReference section */
 		0F6B25E01F7FAF82004D971E /* bcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6B25E31F7FAF82004D971E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F6B25E51F7FAF82004D971E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F6B25E81F7FAF82004D971E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F6B25EA1F7FAF82004D971E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F6B25ED1F7FAF82004D971E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,6 +81,25 @@
 		0FF60ED91F8005A30082CD5C /* ComponentRectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentRectModel.swift; sourceTree = "<group>"; };
 		7A0F6FD997CC6642AFA89706 /* Pods-bcard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bcard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bcard/Pods-bcard.debug.xcconfig"; sourceTree = "<group>"; };
 		8A73D38E788ED812F3258DCC /* Pods-bcard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bcard.release.xcconfig"; path = "Pods/Target Support Files/Pods-bcard/Pods-bcard.release.xcconfig"; sourceTree = "<group>"; };
+		AA09739D1F8526C100BFDF14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AA41768E1F860C7300FED140 /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		AA4176901F860DC600FED140 /* CardComponentTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardComponentTag.swift; sourceTree = "<group>"; };
+		AA4176921F86259400FED140 /* UIUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtil.swift; sourceTree = "<group>"; };
+		AA8885E71F876808008C378A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA8885EC1F876BED008C378A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AA8885ED1F876BED008C378A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA8885EF1F876CC0008C378A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		AA8885F31F879D1B008C378A /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		AA8885F61F879D1C008C378A /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		AA8885F71F879D1D008C378A /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		AA8885F81F879D1D008C378A /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		AA8885F91F879D1E008C378A /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		AA8885FA1F879D1E008C378A /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		AA8885FD1F879D1F008C378A /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		AA8885FE1F879D20008C378A /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		AA8885FF1F879D20008C378A /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		AA8886011F879D21008C378A /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		AA88860C1F87A3EB008C378A /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		F927CE7A434D441F4D07E095 /* Pods_bcard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bcard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,11 +145,12 @@
 		0F6B25E21F7FAF82004D971E /* bcard */ = {
 			isa = PBXGroup;
 			children = (
+				0F6B25E31F7FAF82004D971E /* AppDelegate.swift */,
+				AA41768D1F860C6000FED140 /* Enum */,
 				0FF60ED61F7FFF8B0082CD5C /* Model */,
 				0FF60ED31F7FFF660082CD5C /* Util */,
 				0FE7B5791F7FB12E00DFFF31 /* ViewController */,
 				0FE7B57A1F7FBA6B00DFFF31 /* CollectionViewCell */,
-				0F6B25E31F7FAF82004D971E /* AppDelegate.swift */,
 				0FE7B57F1F7FBAD400DFFF31 /* Resources */,
 				0F6B25E71F7FAF82004D971E /* Main.storyboard */,
 				0F6B25EA1F7FAF82004D971E /* Assets.xcassets */,
@@ -139,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				0FE7B5771F7FB12600DFFF31 /* TemplateListViewController.swift */,
-				0F6B25E51F7FAF82004D971E /* ViewController.swift */,
 			);
 			name = ViewController;
 			path = "New Group";
@@ -161,6 +194,7 @@
 				0FF60ED01F7FEE910082CD5C /* CardStructure */,
 				0FE7B5811F7FBAF100DFFF31 /* Fonts */,
 				0FE7B5801F7FBAD900DFFF31 /* TemplateImages */,
+				AA8885E81F876808008C378A /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -181,6 +215,16 @@
 		0FE7B5811F7FBAF100DFFF31 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				AA8886011F879D21008C378A /* Raleway-Black.ttf */,
+				AA8885F91F879D1E008C378A /* Raleway-Bold.ttf */,
+				AA8885F61F879D1C008C378A /* Raleway-ExtraBold.ttf */,
+				AA8885F31F879D1B008C378A /* Raleway-ExtraLight.ttf */,
+				AA8885FA1F879D1E008C378A /* Raleway-Light.ttf */,
+				AA8885FD1F879D1F008C378A /* Raleway-Medium.ttf */,
+				AA8885F71F879D1D008C378A /* Raleway-Regular.ttf */,
+				AA8885F81F879D1D008C378A /* Raleway-SemiBold.ttf */,
+				AA8885FE1F879D20008C378A /* Raleway-Thin.ttf */,
+				AA8885FF1F879D20008C378A /* Raleway-ThinItalic.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -197,6 +241,9 @@
 			isa = PBXGroup;
 			children = (
 				0FF60ED41F7FFF740082CD5C /* CardUtil.swift */,
+				AA09739D1F8526C100BFDF14 /* Constants.swift */,
+				AA4176921F86259400FED140 /* UIUtil.swift */,
+				AA88860C1F87A3EB008C378A /* Configuration.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -216,6 +263,15 @@
 				F927CE7A434D441F4D07E095 /* Pods_bcard.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA41768D1F860C6000FED140 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				AA41768E1F860C7300FED140 /* FontStyle.swift */,
+				AA4176901F860DC600FED140 /* CardComponentTag.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 		F4D2752F3E264D9ECB1ACFDE /* Pods */ = {
@@ -296,6 +352,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 0F6B25D71F7FAF82004D971E;
 			productRefGroup = 0F6B25E11F7FAF82004D971E /* Products */;
@@ -313,16 +370,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8886051F879EB4008C378A /* Raleway-ExtraLight.ttf in Resources */,
 				0FE7B58C1F7FBBA500DFFF31 /* card3_front.png in Resources */,
+				AA8885E61F876808008C378A /* Localizable.strings in Resources */,
 				0FE7B57E1F7FBA9E00DFFF31 /* CardCollectionViewCell.xib in Resources */,
+				AA8886081F879EB4008C378A /* Raleway-Regular.ttf in Resources */,
 				0F6B25EE1F7FAF82004D971E /* LaunchScreen.storyboard in Resources */,
+				AA88860A1F879EB4008C378A /* Raleway-Thin.ttf in Resources */,
 				0F6B25EB1F7FAF82004D971E /* Assets.xcassets in Resources */,
 				0FE7B58D1F7FBBA500DFFF31 /* card2_front.png in Resources */,
+				AA8886041F879EB4008C378A /* Raleway-ExtraBold.ttf in Resources */,
+				AA8886091F879EB4008C378A /* Raleway-SemiBold.ttf in Resources */,
 				0FE7B5891F7FBBA500DFFF31 /* card2_back.png in Resources */,
+				AA8886031F879EB4008C378A /* Raleway-Bold.ttf in Resources */,
 				0FE7B5881F7FBBA500DFFF31 /* card1_back.png in Resources */,
 				0F6B25E91F7FAF82004D971E /* Main.storyboard in Resources */,
+				AA88860B1F879EB4008C378A /* Raleway-ThinItalic.ttf in Resources */,
 				0FE7B58B1F7FBBA500DFFF31 /* card3_back.png in Resources */,
+				AA8886071F879EB4008C378A /* Raleway-Medium.ttf in Resources */,
+				AA8886061F879EB4008C378A /* Raleway-Light.ttf in Resources */,
 				0FE7B58A1F7FBBA500DFFF31 /* card1_front.png in Resources */,
+				AA8886021F879EB4008C378A /* Raleway-Black.ttf in Resources */,
 				0FF60ED21F7FEEA20082CD5C /* cardStructure.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,12 +428,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-bcard/Pods-bcard-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CoreUtilFramework/CoreUtilFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreUtilFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
 			);
@@ -402,11 +472,15 @@
 				0FE7B57D1F7FBA9E00DFFF31 /* CardCollectionViewCell.swift in Sources */,
 				0FF60ED51F7FFF740082CD5C /* CardUtil.swift in Sources */,
 				0FF60ED81F7FFFA20082CD5C /* BusinessCardUIModel.swift in Sources */,
-				0F6B25E61F7FAF82004D971E /* ViewController.swift in Sources */,
+				AA4176931F86259400FED140 /* UIUtil.swift in Sources */,
+				AA41768F1F860C7300FED140 /* FontStyle.swift in Sources */,
 				0F6B25E41F7FAF82004D971E /* AppDelegate.swift in Sources */,
+				AA88860D1F87A3EB008C378A /* Configuration.swift in Sources */,
 				0FF60EDA1F8005A30082CD5C /* ComponentRectModel.swift in Sources */,
 				0FF60ECF1F7FCBF40082CD5C /* CenterCellCollectionViewFlowLayout.swift in Sources */,
 				0FE7B5781F7FB12600DFFF31 /* TemplateListViewController.swift in Sources */,
+				AA09739E1F8526C100BFDF14 /* Constants.swift in Sources */,
+				AA4176911F860DC600FED140 /* CardComponentTag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +507,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0F6B25E81F7FAF82004D971E /* Base */,
+				AA8885EF1F876CC0008C378A /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -441,8 +516,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				0F6B25ED1F7FAF82004D971E /* Base */,
+				AA8885EC1F876BED008C378A /* tr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AA8885E81F876808008C378A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8885E71F876808008C378A /* en */,
+				AA8885ED1F876BED008C378A /* tr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -452,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -509,6 +595,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
