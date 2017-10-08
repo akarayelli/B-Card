@@ -7,10 +7,10 @@
 			"backgroundImage": "card1_front.png",
 			"coordinates": {
 				"name": {
-					"x": 565,
+					"x": 562,
 					"y": 370,
-					"width": 420,
-					"font": "Raleway-Light 13",
+					"width": 460,
+					"font": "Raleway-Light 10",
                     "textColor" : "#FFFFFF"
 				},
 				"surname": {
@@ -21,38 +21,38 @@
                    "textColor" : "#FFFFFF"
 				},
 				"title": {
-					"x": 565,
-					"y": 415,
-					"width": 420,
-                   "font": "Raleway-Light 13",
+					"x": 562,
+					"y": 407,
+					"width": 400,
+                   "font": "Raleway-Light 10",
                    "textColor" : "#FFFFFF"
 				},
 				"phone": {
-					"x": 190,
-					"y": 434,
-					"width": 310,
-                   "font": "Raleway-Light 13",
+					"x": 185,
+					"y": 418,
+					"width": 340,
+                   "font": "Raleway-Light 10",
                    "textColor" : "#FFFFFF"
 				},
 				"email": {
-					"x": 653,
-					"y": 521,
-					"width": 450,
-                   "font": "Raleway-Light 13",
+					"x": 634,
+					"y": 508,
+					"width": 400,
+                   "font": "Raleway-Light 10",
                    "textColor" : "#FFFFFF"
 				},
 				"company": {
-					"x": 180,
-					"y": 194,
+					"x": 115,
+					"y": 199,
 					"width": 980,
-                   "font": "Raleway-Light 13",
+                   "font": "Raleway-Light 20",
                    "textColor" : "#EF5C59"
 				},
 				"address": {
-					"x": 190,
-					"y": 521,
-					"width": 310,
-                   "font": "Raleway-Light 13",
+					"x": 185,
+					"y": 502,
+					"width": 360,
+                   "font": "Raleway-Light 10",
                    "textColor" : "#FFFFFF"
 				},
 				"city": {
@@ -76,67 +76,67 @@
 			"backgroundImage": "card2_front.png",
                    "coordinates": {
                    "name": {
-                   "x": 130,
-                   "y": 160,
-                   "width": 50,
-                   "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "x": 91,
+                   "y": 479,
+                   "width": 400,
+                   "font": "Raleway-Light 20",
+                   "textColor" : "#EF5C59"
                    },
                    "surname": {
-                   "x": 500,
-                   "y": 500,
+                   "x": 0,
+                   "y": 0,
                    "width": 130,
                    "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "textColor" : "#EF5C59"
                    },
                    "title": {
-                   "x": 0,
-                   "y": 0,
-                   "width": 0,
-                   "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "x": 91,
+                   "y": 526,
+                   "width": 400,
+                   "font": "Raleway-Light 10",
+                   "textColor" : "#EF5C59"
                    },
                    "phone": {
-                   "x": 500,
-                   "y": 600,
-                   "width": 130,
-                   "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "x": 582,
+                   "y": 525,
+                   "width": 400,
+                   "font": "Raleway-Light 10",
+                   "textColor" : "#EF5C59"
                    },
                    "email": {
-                   "x": 0,
-                   "y": 0,
-                   "width": 0,
-                   "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "x": 582,
+                   "y": 438,
+                   "width": 370,
+                   "font": "Raleway-Light 10",
+                   "textColor" : "#EF5C59"
                    },
                    "company": {
-                   "x": 0,
-                   "y": 0,
-                   "width": 0,
-                   "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "x": 108,
+                   "y": 175,
+                   "width": 900,
+                   "font": "Raleway-Light 20",
+                   "textColor" : "#EF5C59"
                    },
                    "address": {
-                   "x": 130,
-                   "y": 250,
-                   "width": 130,
-                   "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "x": 108,
+                   "y": 238,
+                   "width": 900,
+                   "font": "Raleway-Light 10",
+                   "textColor" : "#EF5C59"
                    },
 				"city": {
 					"x": 0,
 					"y": 0,
 					"width": 0,
                    "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "textColor" : "#EF5C59"
 				},
 				"district": {
 					"x": 0,
 					"y": 0,
 					"width": 0,
                    "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "textColor" : "#EF5C59"
 				}
 			}
 		},
@@ -145,67 +145,67 @@
 			"backgroundImage": "card3_front.png",
                    "coordinates":{
                    "name": {
-                   "x": 130,
-                   "y": 160,
-                   "width": 50,
-                   "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "x": 142,
+                   "y": 218,
+                   "width": 317,
+                   "font": "Raleway-Light 20",
+                   "textColor" : "#EF5C59"
                    },
                    "surname": {
-                   "x": 500,
-                   "y": 500,
+                   "x": 0,
+                   "y": 0,
                    "width": 130,
                    "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "textColor" : "#EF5C59"
                    },
                    "title": {
-                   "x": 0,
-                   "y": 0,
-                   "width": 0,
-                   "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "x": 142,
+                   "y": 260,
+                   "width": 300,
+                   "font": "Raleway-Light 10",
+                   "textColor" : "#EF5C59"
                    },
                    "phone": {
-                   "x": 500,
-                   "y": 600,
-                   "width": 130,
-                   "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "x": 549,
+                   "y": 409,
+                   "width": 490,
+                   "font": "Raleway-Light 10",
+                   "textColor" : "#EF5C59"
                    },
                    "email": {
-                   "x": 0,
-                   "y": 0,
-                   "width": 0,
-                   "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "x": 549,
+                   "y": 456,
+                   "width": 490,
+                   "font": "Raleway-Light 10",
+                   "textColor" : "#EF5C59"
                    },
                    "company": {
-                   "x": 0,
-                   "y": 0,
-                   "width": 0,
-                   "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "x": 517,
+                   "y": 235,
+                   "width": 525,
+                   "font": "Raleway-Light 20",
+                   "textColor" : "#EF5C59"
                    },
                    "address": {
-                   "x": 130,
-                   "y": 250,
-                   "width": 130,
-                   "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "x": 549,
+                   "y": 358,
+                   "width": 490,
+                   "font": "Raleway-Light 10",
+                   "textColor" : "#EF5C59"
                    },
 				"city": {
 					"x": 0,
 					"y": 0,
 					"width": 0,
                    "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "textColor" : "#EF5C59"
 				},
 				"district": {
 					"x": 0,
 					"y": 0,
 					"width": 0,
                    "font": "Raleway-Light 13",
-                   "textColor" : "#00000"
+                   "textColor" : "#EF5C59"
 				}
 			}
 		}

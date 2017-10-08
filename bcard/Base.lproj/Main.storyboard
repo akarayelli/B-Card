@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -67,7 +68,7 @@
                                 <rect key="frame" x="16" y="245" width="343" height="37"/>
                                 <color key="pageIndicatorTintColor" red="0.98823529409999999" green="0.71764705880000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </pageControl>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9M-oE-aaC">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9M-oE-aaC" customClass="TPKeyboardAvoidingScrollView">
                                 <rect key="frame" x="0.0" y="290" width="375" height="710"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IIu-gc-zig">
@@ -312,7 +313,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.91743754369115982" green="0.92652108372770592" blue="0.92652108372770592" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.93823024766995944" green="0.94751965606273125" blue="0.94751965606273125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="fSw-nM-Qam" firstAttribute="top" secondItem="Q0V-ox-TGd" secondAttribute="bottom" id="O4p-WE-DrA"/>
                             <constraint firstItem="Q0V-ox-TGd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PHc-aD-hMC"/>

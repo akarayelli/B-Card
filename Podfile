@@ -8,6 +8,8 @@ pod 'XCGLogger', '~> 4.0.0'
 pod 'SwiftyJSON', '3.1.0'
 pod ‘CoreUtilFramework’, :git => ‘https://github.com/akarayelli/CoreUtilFramework.git’, :tag => ‘1.0.1’
 pod 'SkyFloatingLabelTextField', '~> 3.0'
+pod 'TPKeyboardAvoiding'
+
 
 
 
